@@ -1,25 +1,25 @@
-body div:first-child>span a{
+body header:first-child>span a{
     text-decoration: none;
 }
-body div:first-child{
+body header:first-child{
 padding: 20px;
 }
-body div:first-child{
+body header:first-child{
     border: 2px solid #FF948D;
     background-color: #FEECE2;
     height: 90px;
 }
-body div:first-child>span a:nth-child(1){
+body header:first-child>span a:nth-child(1){
     color: #9195F6;
     font-size: 35px;
     font-weight: 600;
 }
-body div:first-child>span a:nth-child(3){
+body header:first-child>span a:nth-child(3){
     color: #FB88B4;
     font-size: 25px;
     font-weight: 400;
 }
-body div:first-child>span a:nth-child(4){
+body header:first-child>span a:nth-child(4){
     color: #A4C9AA;
     font-size: 40px;
     font-weight: 700;
@@ -64,9 +64,28 @@ body div:nth-child(2)>div:nth-child(3){
 body div:nth-child(2)>div:nth-child(3)>span{
     color: white;
     font-size: 20px;
+    border: none;
 }
 
 footer{
-
+    background-color: #3B3486;
+    height: 100px;
+    padding: 32px 0 0 500px;
+    margin-top: 20px;
 }
-
+footer div{
+    background-color: rgb(191, 46, 46);
+    height: 40px;
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+footer div span{
+    font-size: 17px;
+    padding-left: 36px;
+    
+}
+footer div span:last-child{
+    color: #FF9800;
+    font-size: 30px;
+}
